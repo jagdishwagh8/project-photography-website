@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with Mono Studio, a photography studio in Pune. Enquire about portrait sessions, brand and editorial shoots, product photography, and architectural photography.">
+  <meta name="theme-color" content="#f7f6f1">
+  <title>Contact &amp; Enquiries — Mono Studio</title>
+
+  <link rel="stylesheet" href="style.css">   
+
+</head>
+<body>
+
+
+
+
+  
+
+
+<header class="line-nav">
+  <nav class="line-nav__inner" aria-label="Main navigation">
+
+    <!-- Left brand -->
+    <a href="index.html" class="line-nav__brand" aria-label="Mono Studio home">
+      <span class="line-nav__symbol" aria-hidden="true">m.</span>
+      <span class="line-nav__brand-name">MONO STUDIO</span>
+    </a>
+
+    <!-- Mobile menu control -->
+    <input
+      type="checkbox"
+      id="line-nav-toggle"
+      class="line-nav__toggle"
+      aria-label="Toggle navigation"
+    />
+
+    <label class="line-nav__menu" for="line-nav-toggle">
+      <span class="line-nav__menu-label">MENU</span>
+      <span class="line-nav__menu-icon" aria-hidden="true">
+        <i></i>
+        <i></i>
+      </span>
+    </label>
+
+    <!-- Right links -->
+    <div class="line-nav__panel">
+      <div class="line-nav__links">
+        <a href="index.html" class="line-nav__link">Home</a>
+        <a href="about.html" class="line-nav__link">About</a>
+        <a href="portfolio.html" class="line-nav__link">Projects</a>
+        <a href="contact.html" class="line-nav__link line-nav__link--active">contact</a>
+      </div>
+
+      <div class="line-nav__action">
+        <span class="line-nav__availability">
+          <span class="line-nav__dot"></span>
+          Booking for 2026
+        </span>
+        <a href="contact.html" class="line-nav__cta">
+          Contact us <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+<section class="minimal-enquiry" id="contact">
+  <div class="minimal-enquiry__container">
+
+    <!-- Section introduction -->
+    <header class="minimal-enquiry__header">
+      <span class="minimal-enquiry__eyebrow">CONTACT / 01</span>
+      <h2>Good pictures start<br>with a conversation.</h2>
+      <p>
+        Share what you're working on, ask a question about a shoot, or simply
+        say hello. We'll take it from there.
+      </p>
+    </header>
+
+    <div class="minimal-enquiry__layout">
+
+      <!-- Contact information -->
+      <aside class="minimal-enquiry__sidebar">
+        <span class="minimal-enquiry__small-title">
+          CONTACT DETAILS
+        </span>
+
+        <div class="minimal-enquiry__detail">
+          <span class="minimal-enquiry__detail-label">Email</span>
+          <a href="mailto:hello@monostudio.example">
+            hello@monostudio.example
+          </a>
+        </div>
+
+        <div class="minimal-enquiry__detail">
+          <span class="minimal-enquiry__detail-label">Phone</span>
+          <a href="tel:+910000000000">
+            +91 00000 00000
+          </a>
+        </div>
+
+        <div class="minimal-enquiry__detail">
+          <span class="minimal-enquiry__detail-label">Studio</span>
+          <p>
+            Pune, Maharashtra<br>
+            India
+          </p>
+        </div>
+
+        <div class="minimal-enquiry__detail">
+          <span class="minimal-enquiry__detail-label">Working hours</span>
+          <p>
+            Monday – Friday<br>
+            9:00 AM – 6:00 PM IST
+          </p>
+        </div>
+
+        <a
+          class="minimal-enquiry__direct-link"
+          href="https://www.google.com/maps/search/?api=1&query=Pune%2C%20India"
+          target="_blank"
+          rel="noopener noreferrer">
+          View location <span aria-hidden="true">↗</span>
+        </a>
+      </aside>
+
+      <!-- Enquiry form -->
+      <div class="minimal-enquiry__main">
+        <div class="minimal-enquiry__form-header">
+          <div>
+            <span class="minimal-enquiry__small-title">
+              YOUR ENQUIRY
+            </span>
+            <h3>Tell us about the shoot.</h3>
+          </div>
+          <span class="minimal-enquiry__required-note">
+            * Required fields
+          </span>
+        </div>
+
+        <form class="minimal-enquiry__form"
+              action="#"
+              method="post">
+
+          <div class="minimal-enquiry__row">
+            <div class="minimal-enquiry__field">
+              <label for="me-name">Full name *</label>
+              <input
+                type="text"
+                id="me-name"
+                name="name"
+                placeholder="Your name"
+                autocomplete="name"
+                required>
+            </div>
+
+            <div class="minimal-enquiry__field">
+              <label for="me-email">Email address *</label>
+              <input
+                type="email"
+                id="me-email"
+                name="email"
+                placeholder="you@example.com"
+                autocomplete="email"
+                required>
+            </div>
+          </div>
+
+          <div class="minimal-enquiry__row">
+            <div class="minimal-enquiry__field">
+              <label for="me-company">Company / Brand</label>
+              <input
+                type="text"
+                id="me-company"
+                name="company"
+                placeholder="Business or brand name"
+                autocomplete="organization">
+            </div>
+
+            <div class="minimal-enquiry__field">
+              <label for="me-service">What do you need? *</label>
+              <select id="me-service" name="service" required>
+                <option value="" disabled selected>
+                  Choose a shoot type
+                </option>
+                <option value="portraits">Portrait session</option>
+                <option value="brand-editorial">Brand &amp; editorial shoot</option>
+                <option value="product">Product photography</option>
+                <option value="architecture">Architecture &amp; interiors</option>
+                <option value="events">Event coverage</option>
+                <option value="personal">Personal / family session</option>
+                <option value="other">Other enquiry</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="minimal-enquiry__field">
+            <label for="me-budget">Estimated budget</label>
+            <select id="me-budget" name="budget">
+              <option value="" disabled selected>
+                Select a budget range (optional)
+              </option>
+              <option value="under-10000">Under ₹10,000</option>
+              <option value="10000-25000">₹10,000 – ₹25,000</option>
+              <option value="25000-50000">₹25,000 – ₹50,000</option>
+              <option value="above-50000">Above ₹50,000</option>
+              <option value="undecided">Not decided yet</option>
+            </select>
+          </div>
+
+          <div class="minimal-enquiry__field">
+            <label for="me-message">Shoot details *</label>
+            <textarea
+              id="me-message"
+              name="message"
+              rows="5"
+              placeholder="What are the pictures for, roughly when do you need them, and how many people or products are involved? A few details will help us understand your needs."
+              required></textarea>
+          </div>
+
+          <div class="minimal-enquiry__submit-row">
+            <p>We'll use these details to respond to your enquiry.</p>
+            <button type="submit" class="minimal-enquiry__submit">
+              Send enquiry
+              <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+
+    <footer class="minimal-enquiry__footer">
+      <span>Have a question about a shoot? We're here to help.</span>
+      <a href="mailto:hello@monostudio.example">hello@monostudio.example</a>
+    </footer>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="full-min-footer">
+    <div class="full-min-footer__container">
+
+        <div class="full-min-footer__main">
+
+            <!-- BRAND COLUMN -->
+            <div class="full-min-footer__brand-column">
+
+                <a href="index.html" class="full-min-footer__brand"
+                   aria-label="Mono Studio home">
+                    <span class="full-min-footer__logo">m</span>
+                    <span class="full-min-footer__brand-name">
+                        MONO STUDIO
+                    </span>
+                </a>
+
+                <p class="full-min-footer__description">
+                    A photography studio in Pune making portraits, editorial and
+                    brand images with honest light and a calm, unhurried process.
+                </p>
+
+                <div class="full-min-footer__socials"
+                     aria-label="Social media links">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="Behance">Behance</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+
+            </div>
+
+            <!-- COMPANY COLUMN -->
+            <div class="full-min-footer__column">
+                <h3>Studio</h3>
+
+                <ul class="full-min-footer__list">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">Our Team</a></li>
+                    <li><a href="portfolio.html">Selected Work</a></li>
+                    <li><a href="contact.html">Enquiries</a></li>
+                </ul>
+            </div>
+
+            <!-- SERVICES COLUMN -->
+            <div class="full-min-footer__column">
+                <h3>Services</h3>
+
+                <ul class="full-min-footer__list">
+                    <li><a href="services.html">Portrait Sessions</a></li>
+                    <li><a href="services.html">Brand &amp; Editorial</a></li>
+                    <li><a href="services.html">Product Photography</a></li>
+                    <li><a href="services.html">Architecture &amp; Interiors</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT COLUMN -->
+            <div class="full-min-footer__column">
+                <h3>Get in Touch</h3>
+
+                <div class="full-min-footer__contact-item">
+                    <span class="full-min-footer__contact-label">
+                        Email
+                    </span>
+                    <a class="full-min-footer__contact-value"
+                       href="mailto:hello@monostudio.example">
+                        hello@monostudio.example
+                    </a>
+                </div>
+
+                <div class="full-min-footer__contact-item">
+                    <span class="full-min-footer__contact-label">
+                        Phone
+                    </span>
+                    <a class="full-min-footer__contact-value"
+                       href="tel:+910000000000">
+                        +91 00000 00000
+                    </a>
+                </div>
+
+                <a href="contact.html" class="full-min-footer__cta">
+                    Contact Us <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- COPYRIGHT AND LEGAL LINKS -->
+        <div class="full-min-footer__bottom">
+
+            <p class="full-min-footer__copyright">
+                © 2026 Mono Studio. All rights reserved.
+            </p>
+
+            <ul class="full-min-footer__legal">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Licensing</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
